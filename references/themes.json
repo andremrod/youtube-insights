@@ -1,0 +1,22 @@
+{
+  "_como_usar": "Cada tema lista palavras que aparecem na legenda ou nas hashtags (sem acento, tanto faz maiúscula). Vence o tema com mais palavras encontradas. Adicione temas do seu nicho; o Claude revisa o resultado em tags.json.",
+  "themes": {
+    "Segunda Guerra Mundial": ["SegundaGuerraMundial", "WW2", "Hitler", "nazista", "Pearl Harbor", "Normandia", "Dia D", "Barbarossa", "Blitz", "1939", "1940", "1941", "1944", "FEB", "Pracinhas"],
+    "Primeira Guerra Mundial": ["PrimeiraGuerraMundial", "WW1", "GrandeGuerra", "trincheira", "Ypres", "1914", "1915", "1916", "1918"],
+    "Era Napoleônica": ["Napoleao", "Napoleão", "Waterloo", "GuerrasNapoleonicas", "1812", "1815"],
+    "História do Brasil": ["HistoriaDoBrasil", "HistoriaBrasileira", "Canudos", "Lei Aurea", "Imperio do Brasil", "Lampiao", "Getulio", "Republica"],
+    "Antiguidade": ["Pompeia", "Roma", "Romano", "Egito", "Grecia", "Antiguidade", "d.C", "a.C"],
+    "Idade Média": ["IdadeMedia", "Medieval", "Constantinopla", "Bizantino", "Cruzada", "Viking"],
+    "Guerra Fria e conflitos pós-1945": ["GuerraFria", "Vietna", "Coreia", "IraIraque", "Iraque", "Ira", "OrienteMedio", "Saddam", "Afeganistao", "BinLaden", "AlQaeda", "11DeSetembro"],
+    "Desastres e tragédias": ["Chernobyl", "DesastreNuclear", "Titanic", "erupcao", "terremoto", "tsunami", "Vesuvio"],
+    "Colonialismo e direitos humanos": ["Apartheid", "Mandela", "Escravidao", "EscravidaoNoBrasil", "Zulu", "Isandlwana", "Colonial", "DireitosHumanos", "Segregacao"],
+    "Games: curiosidades e segredos": ["easter egg", "segredo", "curiosidade", "bug", "speedrun", "glitch"],
+    "Games: bastidores e história": ["desenvolvimento", "bastidores", "estudio", "lancamento", "console", "cancelado"],
+    "Games: franquias": ["Nintendo", "Zelda", "Mario", "Pokemon", "ResidentEvil", "GTA", "Sonic", "Metroid", "HollowKnight", "PlayStation", "Xbox"]
+  },
+  "regions": {
+    "Brasil": ["HistoriaDoBrasil", "HistoriaBrasileira", "Brasil", "brasileiro", "brasileira", "Canudos", "Lampiao"],
+    "Mundo": ["HistoriaMundial", "Europa", "Africa", "Asia", "EstadosUnidos", "Japao", "Russia", "Uniao Sovietica"],
+    "_default": "Mundo"
+  }
+}
